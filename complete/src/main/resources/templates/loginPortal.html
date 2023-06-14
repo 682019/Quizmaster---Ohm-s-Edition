@@ -1,0 +1,63 @@
+<!-- Original Design by: slimen mami  -->
+<!-- Link to orginal design: https://codepen.io/mamislimen/pen/jOwwLvy-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quizmaster Login</title>
+        <link rel="stylesheet" type="text/css" href="loginPortal.css">
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    </head>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+            <a href="\homepage"       class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
+            <a href="\studentWelcome" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Students</a>
+            <a href="\teacherWelcome" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Teachers</a>
+            <a href="\aboutUs"        class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Us</a>
+            <a href="\loginPortal"    class="w3-bar-item w3-button w3-padding-large w3-white">Login</a>
+        </div>
+    </div>
+
+    <body>
+        <div class="main">
+            <div class="main2">  	
+                <input type="checkbox" id="chk" aria-hidden="true">
+
+                <div class="signup">
+                    <form>
+                        <label for="chk" aria-hidden="true">Sign up</label>
+                            <div class="enterBox">
+                                <input type="text" name="txt" placeholder="Username" required="" style="padding:15px">
+                                <div class="email">
+                                    <input type="email" name="email" placeholder="Email" required="" style="padding:15px">
+                                </div>
+                                <div class="password">
+                                    <input type="password" name="pswd" placeholder="Password" required="" style="padding:15px">
+                                </div>
+                            <button>Sign up</button>
+                            </div>
+                    </form>
+                </div>
+
+                    <div class="login">
+                        <form>
+                            <label for="chk" aria-hidden="true">Login</label>
+                                <div class="enterBox">
+                                    <div class="email">
+                                        <input type="email" name="email" placeholder="Username/Email" required="" style="padding:15px">
+                                    </div>
+                                    <div class="password">
+                                        <input type="password" name="pswd" placeholder="Password" required="" style="padding:15px">
+                                    </div>
+                                    <button>Login</button>
+                                </div>
+                        </form>
+                    </div>
+            </div>
+        </div>
+    </body>
+</html>
